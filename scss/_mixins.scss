@@ -1,1 +1,8 @@
-//  Mixins
+@mixin body-font() {
+  font-family: 'Lato';
+}
+
+@mixin heading-font() {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
