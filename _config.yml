@@ -1,70 +1,63 @@
-# Welcome to Jekyll!
-
-# Website settings
-title: JingYi  (Lukia)  Zhao
-description: Jingyi's blog,use Jekyll and github pages.
-# keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
-# baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://rmit-s3681602-JingYi-Zhao.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
-# url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
-
-# author -- index page "about me" section
-author:  # change following line to your infomation.
-  name: Jingyi Zhao  # Be used at blog posts' author.
-  first_name: Jingyi  # Be used at index page about me section.
-  last_name: Zhao  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: rmit-s3681602-JingYi-Zhao  # Leave blank if you don't have now
-  linkedin_id: jingyi (Lukia) Zhao # Leave blank if you don't have now
-  # facebook_username:   # Leave blank if you don't have now
-  # twitter_username:   # Leave blank if you don't have now
-  email: yifengzhao0530@gmail.com  # Leave blank if you don't have now
-  cv:   # An online CV can be printed as PDF, leave blank if you don't have now
-  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
-  skill_icon1:
-    - name: icon-apache
-    - name: fa-linux
-  skill_icon2:
-    - name: fa-linux
-    - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
-
-# comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  # name: jalpc
-# 
-# analytics
-## google analytics
-ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-93473370-3
-
-## google optimize
-go:
-  # id:
-
-## growingIO
-gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
-  # id:
-
-## donation
-donation: on  # type 'on'/'off' to choice display donation button at post page or not
-
-## carousels
-index_carousel: on  # index page carousel switch
-blog_carousel: on  # blog page carousel switch
-
-# scss
-sass:
-  style: compressed
+# Site settings
+title: "Jekyll Resume Template"
+description: "A resume template for Jekyll and GitHub Pages sites."
 
 # Build settings
-encoding: utf-8
-
-# other settings
-highlighter: rouge
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
 
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Lisa M. Simpson"
+resume_title:                   "VP of Global Communications"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "lisasimpson@youremailaddress.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "555-7334"
+resume_contact_address:         "742 Evergreen Terrace, Springfield"
+
+resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     true
+resume_section_links:           true
+resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/jglovier/resume-template"
+  resume_twitter_url:           "http://twitter.com/jglovier"
+  resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "http://joelglovier.com"
+  resume_medium_url:            "https://medium.com/@jglovier"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
