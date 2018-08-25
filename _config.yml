@@ -16,9 +16,9 @@ author:  # change following line to your infomation.
   last_name: Zhao  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: rmit-s3681602-JingYi-Zhao  # Leave blank if you don't have now
-  linkedin_id: https://www.linkedin.com/in/jingyi-lukia-zhao-17b60b12a/ # Leave blank if you don't have now
-  facebook_username:   # Leave blank if you don't have now
-  twitter_username:   # Leave blank if you don't have now
+  linkedin_id: jingyi-lukia-zhao-17b60b12a # Leave blank if you don't have now
+  # facebook_username:   # Leave blank if you don't have now
+  # twitter_username:   # Leave blank if you don't have now
   email: yifengzhao0530@gmail.com  # Leave blank if you don't have now
   cv:   # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
@@ -32,8 +32,8 @@ author:  # change following line to your infomation.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: jalpc
-
+  # name: jalpc
+# 
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
