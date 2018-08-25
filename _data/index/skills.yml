@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: GitHub, Java, MySQL, Swift, Android Studio, Research, Hive, SAP Lumira, JavaScript, MatLab
-percentage: 90, 80, 70, 75, 70, 90, 50, 50, 50, 50
+aspects: GitHub, Java, Research, MySQL, Hive, SAP Lumira, JavaScript, MatLab, Swift, Android Studio 
+percentage: 100, 90, 70, 60, 50, 60, 60, 70, 75, 75
