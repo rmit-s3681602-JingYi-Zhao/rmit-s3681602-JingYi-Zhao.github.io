@@ -4,17 +4,55 @@
 # jazznotes.io
 - project: Cacino Style Dice Game
   role: A simulated Dice Game that allows players and house to roll dices and win points
-  duration: 2018
-  # url: "#"
-  description: This small project requires the knowledge of software architecture, thread, MVC desgin pattern, UI desgin skills, and problem-solving skills.
-    <ul class="resume-item-list"><li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
+  duration: Feb, 2018 &mdash; May, 2018
+  url: "Notes:"
+  description: This small project requires the knowledge of software architecture, thread, MVC desgin pattern, file read and write, UI desgin skills, and problem-solving skills.
+    <ul class="resume-item-list"> 
+    <li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
     <li>The rolling actions are more time-consuming, which should be run in background thread so they do not lock up the UI</li>
     </ul>
+  image: avatar.jpg
   # <img src="images/DiceGameGif.gif" alt="DiceGIF" width="630" height="380">
 
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: Mini Network
+  role: A simulated social media that connects people with respect to relationships
+  duration: Feb, 2018 &mdash; May, 2018
+   # &mdash; Present
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: This project mimics social media app requires knowledge of javafx, HSQL database, JUnit Test, MVC pattern, serialisation, lambda expression.
+               
+  # image: images/image.jpg
+
+- project: GeoTracking Android App
+  role: 
+  duration: July, 2018 &mdash; Present
+   # &mdash; Present
+  # url: "#"
+  description: This project 
+               <ul class="resume-item-list">
+               <li></li>
+  image: image.jpg
+
+- project: Swift Side Projects
+  role: 
+  duration: 
+   # &mdash; Present
+  # url: "#"
+  description: This project 
+               <ul class="resume-item-list">
+               <li></li>
+  image: image.jpg
+
+- project: Algorithm puzzles
+  role: 
+  duration: 
+   # &mdash; Present
+  # url: "#"
+  description: This project 
+               <ul class="resume-item-list">
+               <li></li>
+  image: image.jpg
+
+
+

@@ -110,6 +110,17 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
 
+          <!-- <a href="{{ post.url | absolute_url }}">{{ project.image }}</a> -->
+          <!-- {% if site.data.project.image == 'DiceGameGif' %} -->
+          <!-- <img src=project.image alt="my photo" class="avatar no-print"   itemprop="image"> -->
+          <!-- {% endif %} -->
+          {% if project.image == 'avatar.jpg' %}
+        
+          <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+          {% endif %}
+         
+        
+
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
@@ -233,8 +244,10 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Made by Jingyi</p>
+          <!-- <a href="http://twitter.com/jglovier">@jglovier</a>.  -->
+          <!-- Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
+        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p> -->
       </footer>
 
     </div>
