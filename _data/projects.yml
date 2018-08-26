@@ -2,11 +2,15 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: Cacino Style Dice Game
+  role: A simulated Dice Game that allows players and house to roll dices and win points
+  duration: 2018
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+  description: This small project requires the knowledge of software architecture, thread, MVC desgin pattern, UI desgin skills, and problem-solving skills.
+    <ul class="resume-item-list"><li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
+    <li>The rolling actions are more time-consuming, which should be run in background thread so they do not lock up the UI</li>
+    </ul>
+  # <img src="images/DiceGameGif.gif" alt="DiceGIF" width="630" height="380">
 
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group

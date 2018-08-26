@@ -2,12 +2,20 @@
 - degree: Master of Information Technology
   uni: RMIT University
   year: June, 2017 - June, 2019 
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+  awards: 
+    - award: Being a Computer Science and IT Mentor in 2018       
+    - award: "GPA: 4.0/4.0"    
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Master of Biomedical Engineering
+  uni: The University of Melbourne
+  year: 2016 - 2017
+  awards: 
+    - award: Smile Detector Project
+
+- degree: Bachelor of Biomedicine
+  uni: The University of Melbourne
+  year: 2013 - 2015
+  awards: 
+    - award: major in Cell and Developmental Biology
+    - award: "weighted average mark: 83/100"
+    
