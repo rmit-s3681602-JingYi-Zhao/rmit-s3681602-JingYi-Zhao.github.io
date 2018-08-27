@@ -5,13 +5,16 @@
 - project: Cacino Style Dice Game
   role: A simulated Dice Game that allows players and house to roll dices and win points
   duration: Feb, 2018 &mdash; May, 2018
-  url: "Notes:"
+  # url: "Notes:"
   description: This small project requires the knowledge of software architecture, thread, MVC desgin pattern, file read and write, UI desgin skills, and problem-solving skills.
     <ul class="resume-item-list"> 
     <li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
     <li>The rolling actions are more time-consuming, which should be run in background thread so they do not lock up the UI</li>
     </ul>
-  image: avatar.jpg
+  display: yep
+  imagess: 
+    - image: /images/DiceGameGif.gif
+
   # <img src="images/DiceGameGif.gif" alt="DiceGIF" width="630" height="380">
 
 # Springfield Community Outreach Group
@@ -20,21 +23,29 @@
   duration: Feb, 2018 &mdash; May, 2018
    # &mdash; Present
   # url: "#"
-  description: This project mimics social media app requires knowledge of javafx, HSQL database, JUnit Test, MVC pattern, serialisation, lambda expression.
-               
-  # image: images/image.jpg
+  description: This project mimics social media app requires knowledge of javafx, HSQL database, JUnit Test, MVC pattern, serialisation, lambda expression and Breadth-first search algorithm.      
+              <ul class="resume-item-list"> 
+              <li></li>
 
-- project: GeoTracking Android App
-  role: 
+  display: yep
+  imagess: 
+    - image: /images/mininet.png
+
+- project: GeoTracking Android App (ongoing)
+  role:  
   duration: July, 2018 &mdash; Present
    # &mdash; Present
   # url: "#"
-  description: This project 
+  description: This project is able to track moving objects based on local storage and networking/cloud services. 
+              The location-based notification system is still ongoing. 
                <ul class="resume-item-list">
-               <li></li>
-  image: image.jpg
+               <li>Strictly follow MVC pattern</li>
+               <li>Work through all stages of the software development lifecycle from inception through to implementation and testing.</li>
+               <li>Deeply consider the impact of user characteristics, device capabilities, networking and cloud infrastructure and deployment environment, in order to develop software capable of meeting the requirements of stakeholders.</li>
 
-- project: Swift Side Projects
+  image: images/substring.png
+
+- project: Swift Side Projects (ongoing)
   role: 
   duration: 
    # &mdash; Present
@@ -42,17 +53,20 @@
   description: This project 
                <ul class="resume-item-list">
                <li></li>
-  image: image.jpg
+  image: 
 
 - project: Algorithm puzzles
   role: 
-  duration: 
+  duration: Anagram | Binary Search | HashMap (Ransom Note) | Stack (Balance Bracket)
    # &mdash; Present
   # url: "#"
-  description: This project 
-               <ul class="resume-item-list">
-               <li></li>
-  image: image.jpg
+  description: 
+  display: yep
+  imagess: 
+    - image: /images/anagram.png 
+    - image: /images/binarySearch.png
+    - image: /images/ransomNote.png
+    - image: /images/balanceBracket.png
 
 
 

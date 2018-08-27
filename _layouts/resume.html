@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/image.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -88,7 +88,6 @@
               {% endfor %}
             </ul></h5>
 
-
           <p class="resume-item-copy">{{ education.summary }}</p>
         </div>
         {% endfor %}
@@ -114,12 +113,14 @@
           <!-- {% if site.data.project.image == 'DiceGameGif' %} -->
           <!-- <img src=project.image alt="my photo" class="avatar no-print"   itemprop="image"> -->
           <!-- {% endif %} -->
-          {% if project.image == 'avatar.jpg' %}
         
-          <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
-          {% endif %}
-         
-        
+        {% if project.display == 'yep' %}
+
+            {% for image in project.imagess %}
+          
+            <img src={{image.image}} alt="my photo" class="avatar no-print" itemprop="image">
+            {% endfor %}
+        {% endif %}
 
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
@@ -134,7 +135,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Main Skills</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -172,7 +173,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Volunteer Experience</h2>
         </header>
 
         {% for association in site.data.associations %}

@@ -1,12 +1,31 @@
 # Skills
-# Java
-- skill: Java
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
-
 # GIT 
 - skill: Git Skills
-  description: 
+  description: I have more than one year experience of using Git to assist assignments. Therefore I am quite
+              proficient in git commands, such as commit, merge, revert, reset, diff, log, checkout, rebase, etc. 
 
-# 
-- skill: 
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# languages
+- skill: Programming languages
+  description: 
+                <li> Java </li>
+                <li> Swift </li>
+                <li> Android Programming Language </li>
+                <li> SQL </li>
+                <li> javaScript </li>
+#  design pattern           
+- skill: Design Patterns
+  description: <li>Experience with MVC in Dice Game, MiniNet, GeoTrack and Swift side projects.</li>
+               <li>Solid understanding of Observer Pattern.</li>
+  
+- skill: Big data Processing
+  description: Understand Hadoop DFS and able to write MapReduce program executing on AWS EMR.
+
+- skill: Software Project Development
+  description: <li>In-depth knowledge of Agile, DevOps, Scrum, Kanban board, etc.</li>
+                <li>Able to write WBS, Project Charter, Product/Sprint backlogs, etc.</li>
+
+# unix 
+- skill: "*NIX"
+  description: Basic *nix command
+# map reduce
+- skill:

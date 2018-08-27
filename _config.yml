@@ -23,8 +23,12 @@ resume_contact_address:         "80 A'Beckett Street, Melbourne, 3000"
 resume_header_contact_info:     "80 A'Beckett Street, Melbourne, 3000 • yifengzhao0530@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
-
+resume_header_intro: "<p> I'm currently an IT postgraduate student doing my final year at RMIT University.
+                      I would like to think myself as hardworking and easy-going.
+                      I am inspired by the challenges and overcoming challenges is so much fun.
+                      I am open to any opportunities that may take me further in my career.
+                      </p>"
+# The difference that science makes to the world in making tasks and life easier is what drives and inspires me to code. 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
@@ -37,8 +41,8 @@ resume_looking_for_work:        "yes"
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-# resume_sectioxn_recognition:     true
-resume_section_links:           true
+resume_sectioxn_recognition:     true
+# resume_section_links:           true
 resume_section_associations:    true
 resume_section_interests:       true
 
