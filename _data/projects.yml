@@ -6,11 +6,11 @@
   role: A simulated Dice Game that allows players and house to roll dices and win points
   duration: Feb, 2018 &mdash; May, 2018
   # url: "Notes:"
-  description: This small project requires the knowledge of software architecture, thread, MVC desgin pattern, file read and write, UI desgin skills, and problem-solving skills.
-    <ul class="resume-item-list"> 
-    <li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
-    <li>The rolling actions are more time-consuming, which should be run in background thread so they do not lock up the UI</li>
-    </ul>
+  description: This project requires the knowledge of software architecture, thread, MVC desgin pattern, file read and write, UI desgin skills, and problem-solving skills.
+    # <ul class="resume-item-list"> 
+    # <li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
+    # <li>The rolling actions are more time-consuming, which should be run in background thread so they do not lock up the UI</li>
+    # </ul>
   display: yep
   imagess: 
     - image: /images/DiceGameGif.gif
@@ -24,8 +24,6 @@
    # &mdash; Present
   # url: "#"
   description: This project mimics social media app requires knowledge of javafx, HSQL database, JUnit Test, MVC pattern, serialisation, lambda expression and Breadth-first search algorithm.      
-              <ul class="resume-item-list"> 
-              <li></li>
 
   display: yep
   imagess: 
@@ -38,10 +36,10 @@
   # url: "#"
   description: This project is able to track moving objects based on local storage and networking/cloud services. 
               The location-based notification system is still ongoing. 
-               <ul class="resume-item-list">
-               <li>Strictly follow MVC pattern</li>
-               <li>Work through all stages of the software development lifecycle from inception through to implementation and testing.</li>
-               <li>Deeply consider the impact of user characteristics, device capabilities, networking and cloud infrastructure and deployment environment, in order to develop software capable of meeting the requirements of stakeholders.</li>
+               # <ul class="resume-item-list">
+               # <li>Strictly follow MVC pattern</li>
+               # <li>Work through all stages of the software development lifecycle from inception through to implementation and testing.</li>
+               # <li>Deeply consider the impact of user characteristics, device capabilities, networking and cloud infrastructure and deployment environment, in order to develop software capable of meeting the requirements of stakeholders.</li>
 
   image: images/substring.png
 
@@ -50,14 +48,12 @@
   duration: 
    # &mdash; Present
   # url: "#"
-  description: This project 
-               <ul class="resume-item-list">
-               <li></li>
+  description: 
   image: 
 
 - project: Algorithm puzzles
   role: 
-  duration: Anagram | Binary Search | HashMap (Ransom Note) | Stack (Balance Bracket)
+  duration: Anagram  |  Binary Search  |  HashMap (Ransom Note)  |  Stack (Balance Bracket)
    # &mdash; Present
   # url: "#"
   description: 

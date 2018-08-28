@@ -113,7 +113,10 @@
           <!-- {% if site.data.project.image == 'DiceGameGif' %} -->
           <!-- <img src=project.image alt="my photo" class="avatar no-print"   itemprop="image"> -->
           <!-- {% endif %} -->
-        
+       
+
+          <p class="resume-item-copy">{{ project.description }}</p>
+
         {% if project.display == 'yep' %}
 
             {% for image in project.imagess %}
@@ -121,8 +124,7 @@
             <img src={{image.image}} alt="my photo" class="avatar no-print" itemprop="image">
             {% endfor %}
         {% endif %}
-
-          <p class="resume-item-copy">{{ project.description }}</p>
+        
         </div>
         {% endfor %}
 
