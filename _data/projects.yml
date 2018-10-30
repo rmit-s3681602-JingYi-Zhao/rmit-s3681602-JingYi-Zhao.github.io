@@ -29,26 +29,27 @@
   imagess: 
     - image: /images/mininet.png
 
-- project: GeoTracking Android App (ongoing)
+- project: GeoTracking Android App 
   role:  
-  duration: July, 2018 &mdash; Present
+  duration: July, 2018 &mdash; Sep,2018
    # &mdash; Present
   # url: "#"
   description: This project is able to track moving objects based on local storage and networking/cloud services. 
-              The location-based notification system is still ongoing. 
+              The location-based notification system periodically notifies user about the closest objects that can be reached. 
                # <ul class="resume-item-list">
                # <li>Strictly follow MVC pattern</li>
                # <li>Work through all stages of the software development lifecycle from inception through to implementation and testing.</li>
                # <li>Deeply consider the impact of user characteristics, device capabilities, networking and cloud infrastructure and deployment environment, in order to develop software capable of meeting the requirements of stakeholders.</li>
+  display: yep
+  imagess:
+    - image: /images/GeoTracker.gif
 
-  image: images/substring.png
-
-- project: Swift Side Projects (ongoing)
+- project: Swift Weather App
   role: 
-  duration: 
+  duration: Sep, 2018 | post soon
    # &mdash; Present
   # url: "#"
-  description: 
+  description: REST, JSON, URLSession, Async Task, Mock unit test...
   image: 
 
 - project: Algorithm puzzles
