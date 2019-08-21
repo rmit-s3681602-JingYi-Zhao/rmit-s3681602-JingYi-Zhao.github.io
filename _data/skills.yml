@@ -11,14 +11,16 @@
                 <li> iOS - Swift </li>
                 <li> Android - Java </li>
                 <li> SQL </li>
-                <li> Firebase </li>
                 <li> javaScript </li>
+                <li> PHP </li>
+                <li> C# </li>
+
 #  design pattern           
 - skill: Design Patterns
   description: <li>Experience with MVC in Dice Game, MiniNet, GeoTrack and Weather app projects.</li>
                <li>Solid understanding of Observer Pattern, singleton.</li>
                <li>Experience with MVVM in iOS.</li>
-  
+
 - skill: Big data Processing
   description: Understand Hadoop DFS and able to write MapReduce program executing on AWS EMR.
 

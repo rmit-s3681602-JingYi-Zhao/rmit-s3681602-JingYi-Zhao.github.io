@@ -18,12 +18,12 @@ resume_contact_email:           "yifengzhao0530@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "0406869601"
-resume_contact_address:         "80 A'Beckett Street, Melbourne, 3000"
+resume_contact_address:         "604 Swanston Street, Melbourne, 3000"
 
-resume_header_contact_info:     "80 A'Beckett Street, Melbourne, 3000 • yifengzhao0530@gmail.com"
+resume_header_contact_info:     "604 Swanston Street, Melbourne, 3000 • yifengzhao0530@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p> I'm currently an IT postgraduate student doing my final year at RMIT University.
+resume_header_intro: "<p> I'm an IT postgraduate student at RMIT University.
                       I would like to think myself as hardworking and easy-going.
                       I am inspired by the challenges and overcoming challenges is so much fun.
                       I am open to any opportunities that may take me further in my career.

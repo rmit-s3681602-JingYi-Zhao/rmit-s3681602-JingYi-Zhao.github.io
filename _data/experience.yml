@@ -3,7 +3,12 @@
 - company: Abacus.co
   position: Android Developer Intern
   duration: Oct, 2018 &mdash; Dec, 2018
-  # summary: <ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  summary: <ul class="resume-item-list">
+            <li>Creating new features and functionality on the Roll'd App using Java, Realm, REST, JSON, SDKs, etc.</li>
+            <li>Updating and optimizing layouts and partials of UI.</li>
+            <li>Fixing bug reported from testers.</li>
+            <li>Working with the back end developers.</li>
+            </ul>
 
 # # Director of Digital Stratgy
 # - company: United Nations Human Rights Council
