@@ -7,11 +7,12 @@
   role: An admin page for user to view and interact the schedules under certain constrains.
   duration: March, 2019 &mdash; June, 2019
   # url: "Notes:"
-  description: VueJS, Bootstrap, Webpack, Vuex, etc
-    # <ul class="resume-item-list"> 
-    # <li>All calls to the UI (update UI, create UI component) are done in the AWT Event Dispatch Thread </li>
-    # <li>The rolling actions are more time-consuming, which should be run in background thread so they do not lock up the UI</li>
-    # </ul>
+  description: 
+    <ul class="resume-item-list"> 
+    <li>Lead front end developer</li>
+    <li>Using VueJS, Bootstrap, Webpack, Vuex, etc </li>
+    <li></li>
+    </ul>
   display: yep
   imagess: 
     - image: /images/uniti.gif
