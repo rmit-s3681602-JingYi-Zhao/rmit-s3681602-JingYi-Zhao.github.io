@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Jingyi (Lukia) Zhao"
-resume_title:                   "IT Student in RMIT"
+resume_title:                   "IT Graduate"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "yifengzhao0530@gmail.com"
@@ -23,7 +23,7 @@ resume_contact_address:         "604 Swanston Street, Melbourne, 3000"
 resume_header_contact_info:     "604 Swanston Street, Melbourne, 3000 • yifengzhao0530@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p> I'm an IT postgraduate student at RMIT University.
+resume_header_intro: "<p> I'm a recent IT graduate from RMIT University.
                       I would like to think myself as hardworking and easy-going.
                       I am inspired by the challenges and overcoming challenges is so much fun.
                       I am open to any opportunities that may take me further in my career.
@@ -49,7 +49,7 @@ resume_section_interests:       true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/rmit-s3681602-JingYi-Zhao"
+  resume_github_url:            "https://github.com/lukiazhao"
   # resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
