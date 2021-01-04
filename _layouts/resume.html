@@ -68,6 +68,26 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skill Set</h2>
+        </header>
+        <table>
+          {% for skill in site.data.skills %}
+          <tr>
+            <td class="resume-item-details" style="padding-right: 3.5em;padding-bottom:0.5em;">
+              <strong>{{ skill.skill }}:</strong>
+            </td>
+            <td>{{ skill.description }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </section>
+      <!-- end Skills -->
+      {% endif %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
@@ -121,7 +141,14 @@
 
             {% for image in project.imagess %}
           
-            <img src={{image.image}} alt="my photo" class="avatar no-print" itemprop="image">
+              {% if image.image == '/images/uniti.gif' %}
+              <img src={{image.image}} alt="my photo" width="800" class="avatar no-print" itemprop="image">
+              {% elsif image.image == '/images/zed_ris_demo.gif' %}
+              <img src={{image.image}} alt="my photo" width="800" class="avatar no-print" itemprop="image">
+              {% else %}
+              <img src={{image.image}} alt="my photo" class="avatar no-print" itemprop="image">
+              {% endif %}
+
             {% endfor %}
         {% endif %}
         
@@ -130,24 +157,6 @@
 
       </section>
       <!-- end Projects -->
-      {% endif %}
-
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Main Skills</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Skills -->
       {% endif %}
 
       {% if site.resume_section_recognition %}

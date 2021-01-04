@@ -1,35 +1,22 @@
 # Skills
 # GIT 
-- skill: Git Skills
-  description: Two years experience of using Git to assist teamwork. I am quite
-              proficient in git commands, such as commit, merge, revert, reset, diff, log, checkout, rebase, etc. 
 
 # languages
-- skill: Skill Set
-  description: 
-                <li> .Net / C# </li>
-                <li> Java </li>
-                <li> iOS - Swift </li>
-                <li> Android - Java </li>
-                <li> SQL </li>
-                <li> JavaScript </li>
-                <li> Laravel / PHP </li>
-
-#  design pattern           
-- skill: Design Patterns
-  description: <li>Experience with MVC in Dice Game, MiniNet, GeoTrack and Weather app projects.</li>
-               <li>Solid understanding of Observer Pattern, singleton.</li>
-               <li>Experience with MVVM in iOS.</li>
-
-- skill: Big data Processing
-  description: Understand Hadoop DFS and able to write MapReduce program executing on AWS EMR.
-
-- skill: Software Project Development
-  description: <li>In-depth knowledge of Agile, DevOps, Scrum, Kanban board, etc.</li>
-                <li>Able to write WBS, Project Charter, Product/Sprint backlogs, etc.</li>
-
-# unix 
-- skill: "*NIX"
-  description: Basic *nix command
-# map reduce
-- skill:
+- skill: Web Framework
+  description: .NET / Laravel
+- skill: Backend Languages
+  description: C# / Java / PHP
+- skill: Frontend Framework
+  description: Blazor / VueJs / React / JQuery
+- skill: Frontend Languages
+  description: HTML5 / CSS / Javascript / C#
+- skill: Database
+  description: MSSQL / MySQL / Firebase / Realm
+- skill: Cloud Computing
+  description: AWS / Azure
+- skill: Git
+  description: Git / Sourcetree / TortoiseGit
+- skill: Scrum/Agile
+  description: Trello / Jira / Azure DevOps
+- skill: Mobile Development
+  description: Swift / Kotlin / Android SDK / Java
