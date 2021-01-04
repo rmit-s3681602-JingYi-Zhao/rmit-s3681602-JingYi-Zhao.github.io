@@ -4,14 +4,15 @@
 
 # jazznotes.io
 - project: Automated Work Allocation
-  role: An admin page for user to view and interact the schedules under certain constrains.
+  role: A project of Client Management System sponsored by UNITI Software, which can allocate the patients’ appointments automatically to health workers from algorithm result and can perform manual changes to the result based on user’s preference.
   duration: March, 2019 &mdash; June, 2019
   # url: "Notes:"
   description: 
     <ul class="resume-item-list"> 
-    <li>Lead front end developer</li>
-    <li>Using VueJS, Bootstrap, Webpack, Vuex, etc </li>
-    <li></li>
+      <li>Lead front end developer</li>
+      <li>Set up and architected a Vue web app for the front-end of the system</li>
+      <li>Coded user-customisable web pages to convert raw data to easily understandable graphical formats, and allow a user to alter, undo and save the schedule via async request with Axios.</li>
+      <li>Worked closely with BA, back-end developers and testers with agile development practices.</li>
     </ul>
   display: yep
   imagess: 
