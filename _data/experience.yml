@@ -1,5 +1,18 @@
 # Jobs
 # VP of Global Communications
+
+- company: Zed Technologies
+  position: Full-Stack Developer
+  duration: Nov, 2019 &mdash; Now
+  summary: <ul class="resume-item-list">
+            <li>Participated in developing a web application, Zed RIS, using Blazor that allows radiology practices to accept DICOM medical images, and provides reporting and managing functions.</li>
+            <li>Developed a support dashboard web application using Blazor that centralises the clients information from different systems via API endpoints, monitors sensitive data via background service and sends alerts via slack and email.</li>
+            <li>Maintained and improved the codebase of exisiting products.</li>
+            <li>Write unit tests or integration tests for the features and bugs fixes.</li>
+            <li>Documented codebase and instruction manuals.</li>
+            <li>Collaborated and interacted constructively with a team of individuals with diverse skills.</li>
+            </ul>
+
 - company: Abacus.co
   position: Android Developer Intern
   duration: Oct, 2018 &mdash; Dec, 2018

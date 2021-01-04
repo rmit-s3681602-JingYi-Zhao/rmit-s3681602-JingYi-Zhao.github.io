@@ -5,15 +5,15 @@
               proficient in git commands, such as commit, merge, revert, reset, diff, log, checkout, rebase, etc. 
 
 # languages
-- skill: Programming Skills
+- skill: Skill Set
   description: 
+                <li> .Net / C# </li>
                 <li> Java </li>
                 <li> iOS - Swift </li>
                 <li> Android - Java </li>
                 <li> SQL </li>
-                <li> javaScript </li>
-                <li> PHP </li>
-                <li> C# </li>
+                <li> JavaScript </li>
+                <li> Laravel / PHP </li>
 
 #  design pattern           
 - skill: Design Patterns

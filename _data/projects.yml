@@ -4,10 +4,11 @@
 
 # jazznotes.io
 - project: Automated Work Allocation
-  role: A project of Client Management System sponsored by UNITI Software, which can allocate the patients’ appointments automatically to health workers from algorithm result and can perform manual changes to the result based on user’s preference.
+  role: 
   duration: March, 2019 &mdash; June, 2019
   # url: "Notes:"
   description: 
+    A project of Client Management System sponsored by UNITI Software, which can allocate the patients’ appointments automatically to health workers from algorithm result and can perform manual changes to the result based on user’s preference.
     <ul class="resume-item-list"> 
       <li>Lead front end developer</li>
       <li>Set up and architected a Vue web app for the front-end of the system</li>

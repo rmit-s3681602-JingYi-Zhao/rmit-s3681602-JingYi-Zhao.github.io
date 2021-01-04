@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Jingyi (Lukia) Zhao"
-resume_title:                   "IT Graduate"
+resume_title:                   "Full-Stack Developer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "yifengzhao0530@gmail.com"
@@ -23,7 +23,7 @@ resume_contact_address:         "604 Swanston Street, Melbourne, 3000"
 resume_header_contact_info:     "604 Swanston Street, Melbourne, 3000 • yifengzhao0530@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p> I'm a recent IT graduate from RMIT University.
+resume_header_intro: "<p> I'm full-stack web developer.
                       I would like to think myself as hardworking and easy-going.
                       I am inspired by the challenges and overcoming challenges is so much fun.
                       I am open to any opportunities that may take me further in my career.
